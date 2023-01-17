@@ -1,0 +1,24 @@
+type 					#Ver el contenido de un documento
+copy					#Copiar
+copy con				#Crear con contenido
+
+
+git status -s                 #Status simplificado
+
+git log --oneline             #Historial simplificado
+
+git mv                        #Mover, renombrar pasando al stage
+
+
+git branch                    #Ver rama
+git checkout -b ramaB         #Crear rama
+git checkout master		#Cambiar de rama
+
+git merge ramab			#Desde rama master, fusionar cambios en ramas
+
+
+git config --global push.autoSetupRemote true   #Esto es para que cuando trabajéis en vuestra rama, automáticamente se sincronice vuestro trabajo en gitHub
+
+git push -u origin rama           #Copiar una rama en el repositorio
+
+gitk       				#Visualización de ramas y commit con interfaz
